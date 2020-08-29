@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Форма отправки данных</title>
+  </head>
+  <body>
+    <div id="for-form" align="center">
+      <form class="" action="index.html" method="post" name="form" autocomplete="on">
+
+        <h2>Книжное чародество</h2>
+
+        <div id="logo">
+          <img src="book-shelf.png" alt="Book shelf logo" width="100" height="100">
+        </div>
+
+        <div id="advice">
+          <em>Если вы хотите получать новинки <br> книг бесплатно, зарегистрируйтесь :3</em>
+        </div>
+
+        <div id="users-login">
+          <label>
+            Логин:
+            <input type="text" id="login" size="22" placeholder="Введите логин">
+          </label>
+        </div>
+
+        <div id="tel-number">
+          <label>
+            Номер телефона:
+            <input type="tel" size="12" placeholder="Введите тел. ном.">
+          </label>
+        </div>
+
+        <div id="email-address">
+          <label>
+            Email адрес:
+            <input type="email" id="mail" size="17" placeholder="Введите email">
+          </label>
+        </div>
+
+        <div id="passw">
+          <label>
+            Пароль:
+            <input type="password" id="password" size="21" placeholder="Введите пароль">
+          </label>
+        </div>
+
+        <div id="full-years">
+          <label>
+            Возраст:
+            <input type="number" id="age" placeholder="Ваш возраст">
+          </label>
+        </div>
+
+        <div id="for-sex">
+          <label>Ваш пол: </label>
+          <input type="radio" name="sex" value="rad1">муж.
+          <input type="radio" name="sex" value="rad2">жен.
+          <input type="radio" name="sex" value="rad2">другой
+        </div>
+
+        <div id="genres">
+          <label>Любимые жанры: </label>
+          <input type="checkbox" name="genre" value="ch2">фэнтези
+          <input type="checkbox" name="genre" value="ch3">поэзия
+          <input type="checkbox" name="genre" value="ch4">романы
+        </div>
+
+        <div id="favourite-books">
+          <textarea name="name" rows="5" cols="50"
+              placeholder="Ваши любимые книги и авторы. Разделять ';'"></textarea>
+        </div>
+
+        <div id="buttons">
+          <input type="submit">
+          <input type="reset">
+        </div>
+
+      </form>
+    </div>
+  </body>
+</html>
