@@ -5,77 +5,75 @@
     <title>Форма отправки данных</title>
   </head>
   <body>
-    <div id="for-form" align="center">
+    <div align="center">
       <form class="" action="index.html" method="post" name="form" autocomplete="on">
 
         <h2>Книжное чародество</h2>
 
-        <div id="logo">
+        <div>
           <img src="book-shelf.png" alt="Book shelf logo" width="100" height="100">
         </div>
 
-        <div id="advice">
+        <div>
           <em>Если вы хотите получать новинки <br> книг бесплатно, зарегистрируйтесь :3</em>
         </div>
 
-        <div id="users-login">
+        <p>
           <label>
             Логин:
             <input type="text" id="login" size="22" placeholder="Введите логин">
           </label>
-        </div>
+        </p>
 
-        <div id="tel-number">
+        <p>
           <label>
             Номер телефона:
             <input type="tel" size="12" placeholder="Введите тел. ном.">
           </label>
-        </div>
+        </p>
 
-        <div id="email-address">
+        <p>
           <label>
             Email адрес:
             <input type="email" id="mail" size="17" placeholder="Введите email">
           </label>
-        </div>
+        </p>
 
-        <div id="passw">
+        <p>
           <label>
             Пароль:
             <input type="password" id="password" size="21" placeholder="Введите пароль">
           </label>
-        </div>
+        </p>
 
-        <div id="full-years">
+        <p>
           <label>
             Возраст:
             <input type="number" id="age" placeholder="Ваш возраст">
           </label>
-        </div>
+        </p>
 
-        <div id="for-sex">
-          <label>Ваш пол: </label>
-          <input type="radio" name="sex" value="rad1">муж.
-          <input type="radio" name="sex" value="rad2">жен.
-          <input type="radio" name="sex" value="rad2">другой
-        </div>
+        <p>Ваш пол:
+          <input type="radio" name="sex" value="rad1"><label>муж.</label>
+          <input type="radio" name="sex" value="rad2"><label>жен.</label>
+          <input type="radio" name="sex" value="rad2"><label>другой</label>
+        </p>
 
-        <div id="genres">
-          <label>Любимые жанры: </label>
-          <input type="checkbox" name="genre" value="ch2">фэнтези
-          <input type="checkbox" name="genre" value="ch3">поэзия
-          <input type="checkbox" name="genre" value="ch4">романы
-        </div>
+        <p>Любимые жанры:
+          <input type="checkbox" name="genre" value="ch2"><label>фэнтези</label>
+          <input type="checkbox" name="genre" value="ch3"><label>поэзия</label>
+          <input type="checkbox" name="genre" value="ch4"><label>романы</label>
+        </p>
 
-        <div id="favourite-books">
+        <p>
           <textarea name="name" rows="5" cols="50"
               placeholder="Ваши любимые книги и авторы. Разделять ';'"></textarea>
-        </div>
+        </p>
 
-        <div id="buttons">
+        <p>
           <input type="submit">
           <input type="reset">
-        </div>
+        </p>
 
       </form>
     </div>
